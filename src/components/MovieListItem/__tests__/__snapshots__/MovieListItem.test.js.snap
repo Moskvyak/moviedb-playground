@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MovieListItem /> should render with required props 1`] = `
+<div
+  className="grid-item"
+>
+  <a
+    href="/test id"
+    onClick={[Function]}
+  >
+    <img
+      className="movielistitem__image"
+      src="undefined/w200testpath"
+    />
+  </a>
+  <div
+    className="movielistitem__title color-white"
+  >
+    test title
+  </div>
+  <div
+    className="movielistitem__date color-lightgray"
+  >
+    Invalid Date
+  </div>
+  <div
+    className="movielistitem__rating-wrapper"
+  >
+    <div
+      className="primary-background-color ratingitem"
+    >
+      75%
+    </div>
+  </div>
+</div>
+`;
