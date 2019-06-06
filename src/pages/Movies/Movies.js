@@ -17,6 +17,7 @@ class Movies extends React.Component {
       searchValue: ''
     };
   }
+
   componentDidMount = async () => {
     this.fetchResults();
   };
@@ -46,7 +47,6 @@ class Movies extends React.Component {
       }
     });
   };
-
 
   render() {
     const { movies, searchValue } = this.state;

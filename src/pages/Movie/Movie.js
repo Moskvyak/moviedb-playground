@@ -5,7 +5,7 @@ import './Movie.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-class Movie extends React.Component {
+export class Movie extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

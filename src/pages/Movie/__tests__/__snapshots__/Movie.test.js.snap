@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Movie /> should render with required props 1`] = `
+<div
+  className="page-background-color page-wrapper primary-color movie__page"
+>
+  <div
+    className="movie__header"
+  >
+    <div
+      className="movie__backdrop-wrapper"
+    >
+      <div
+        className="movie__back-button"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-arrow-left fa-w-14 fa-1x searchform__right-icon"
+          color="#FFF"
+          data-icon="arrow-left"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <img
+        src="undefined/w500undefined"
+      />
+    </div>
+    <div
+      className="movie__title-section"
+    >
+      <div
+        className="movie__poster-wrapper"
+      >
+        <img
+          src="undefined/w200undefined"
+        />
+      </div>
+      <div
+        className="movie__title-wrapper"
+      >
+        <div
+          className="movie__extra-info color-lightgray"
+        >
+          Invalid Date
+           · 
+          NaN %
+           User Score
+          <br />
+          NaNh NaNmin
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="movie__section"
+  >
+    <h3
+      className="color-white"
+    >
+       Overview
+    </h3>
+    <div
+      className="color-lightgray"
+    />
+  </div>
+</div>
+`;
