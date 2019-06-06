@@ -1,0 +1,15 @@
+.movielistitem__image {
+    border-radius: 10px;
+    width: 100%;
+}
+.movielistitem__title, .movielistitem__date  {
+    font-size: 0.75em;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.movielistitem__rating-wrapper {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}

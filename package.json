@@ -1,0 +1,40 @@
+{
+  "name": "movies",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-debounce-input": "^3.2.0",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4"
+  },
+  "scripts": {
+    "start": "REACT_APP_API_KEY=6ed12e064b90ae1290fa326ce9e790ff REACT_APP_API_URL=https://api.themoviedb.org/3 REACT_APP_ASSETS_URL=https://image.tmdb.org/t/p react-scripts start",
+    "build": "REACT_APP_API_KEY=6ed12e064b90ae1290fa326ce9e790ff REACT_APP_API_URL=https://api.themoviedb.org/3 REACT_APP_ASSETS_URL=https://image.tmdb.org/t/p react-scripts build",
+    "test": "react-scripts test",
+    "deploy": "npm run build && aws s3 sync build/ s3://moviedb",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
