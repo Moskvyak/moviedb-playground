@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingItem /> should render with rating between 4 and 7.5 1`] = `
+<div
+  className="purple-background-color ratingitem"
+>
+  50%
+</div>
+`;
+
+exports[`<RatingItem /> should render with rating less than 4 1`] = `
+<div
+  className="red-background-color ratingitem"
+>
+  35%
+</div>
+`;
+
+exports[`<RatingItem /> should render with rating more than 7.5 1`] = `
+<div
+  className="primary-background-color ratingitem"
+>
+  85%
+</div>
+`;
