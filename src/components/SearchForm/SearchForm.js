@@ -38,7 +38,6 @@ SearchForm.propTypes = {
   value: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   clearSearch: PropTypes.func.isRequired,
-  title: PropTypes.string,
   placeholder: PropTypes.string
 };
 
